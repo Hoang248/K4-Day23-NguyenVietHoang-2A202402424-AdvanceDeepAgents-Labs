@@ -1,0 +1,106 @@
+[
+  {
+    "n": 1,
+    "id": "2305.20050",
+    "url": "https://arxiv.org/abs/2305.20050",
+    "title": "Let's Verify Step by Step",
+    "date": "2023-05-31",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "2312.08935",
+    "url": "https://arxiv.org/abs/2312.08935",
+    "title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2402.03300",
+    "url": "https://arxiv.org/abs/2402.03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "date": "2024-04-27",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2402.03300",
+    "url": "https://huggingface.co/papers/2402.03300",
+    "title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+    "date": "2024-02-05",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2506.21495",
+    "url": "https://arxiv.org/abs/2506.21495",
+    "title": "Bridging Offline and Online Reinforcement Learning for LLMs",
+    "date": "2025-06-26",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2505.17218",
+    "url": "https://arxiv.org/abs/2505.17218",
+    "title": "Effective Reinforcement Learning for Reasoning in Language Models",
+    "date": "2025-05-22",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2501.12948",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-22",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2509.25300",
+    "url": "https://arxiv.org/abs/2509.25300",
+    "title": "Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study in Mathematical Reasoning",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 9,
+    "id": "2506.14245",
+    "url": "https://arxiv.org/abs/2506.14245",
+    "title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+    "date": "2025-06-17",
+    "source": "arxiv"
+  },
+  {
+    "n": 10,
+    "id": "2510.15990",
+    "url": "https://arxiv.org/abs/2510.15990",
+    "title": "Can GRPO Help LLMs Transcend Their Pretraining Origin?",
+    "date": "2025-10-14",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2025.emnlp-main.1542",
+    "url": "https://aclanthology.org/2025.emnlp-main.1542/",
+    "title": "VerIF: Verification Engineering for Reinforcement Learning in Instruction Following",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2510.01367",
+    "url": "https://arxiv.org/abs/2510.01367",
+    "title": "Is it thinking or cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2501.12948",
+    "url": "https://huggingface.co/papers/2501.12948",
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "date": "2025-01-22",
+    "source": "hf-search"
+  }
+]

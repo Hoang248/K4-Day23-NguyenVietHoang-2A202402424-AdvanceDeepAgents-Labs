@@ -1,0 +1,98 @@
+[
+  {
+    "n": 1,
+    "id": "1803.10122",
+    "url": "https://worldmodels.github.io/",
+    "title": "World Models",
+    "date": "2018-03-27",
+    "source": "web"
+  },
+  {
+    "n": 2,
+    "id": "1809.01999",
+    "url": "https://arxiv.org/abs/1809.01999",
+    "title": "Recurrent World Models Facilitate Policy Evolution",
+    "date": "2018-09-04",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2301.04104",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "title": "Mastering Diverse Domains through World Models",
+    "date": "2023-01-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2405.06263",
+    "url": "https://huggingface.co/papers/2405.06263",
+    "title": "Learning Latent Dynamic Robust Representations for World Models",
+    "date": "2024-05-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 5,
+    "id": "2206.14176",
+    "url": "https://arxiv.org/abs/2206.14176",
+    "title": "DayDreamer: World Models for Physical Robot Learning",
+    "date": "2022-06-28",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2402.15391",
+    "url": "https://arxiv.org/abs/2402.15391",
+    "title": "Genie: Generative Interactive Environments",
+    "date": "2024-02-23",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2309.17080",
+    "url": "https://arxiv.org/abs/2309.17080",
+    "title": "GAIA-1: A Generative World Model for Autonomous Driving",
+    "date": "2023-09-29",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "oasis2024",
+    "url": "https://oasis-model.github.io/",
+    "title": "Oasis",
+    "date": "2024-10-31",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2502.07825",
+    "url": "https://arxiv.org/html/2502.07825v1",
+    "title": "Pre-Trained Video Generative Models as World Simulators",
+    "date": "2025-02-10",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2504.08388",
+    "url": "https://arxiv.org/abs/2504.08388",
+    "title": "MineWorld: A Real-Time and Open-Source Interactive World Model on Minecraft",
+    "date": "2025-04-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2506.09985",
+    "url": "https://arxiv.org/abs/2506.09985",
+    "title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+    "date": "2025-06-11",
+    "source": "arxiv"
+  },
+  {
+    "n": 12,
+    "id": "2405.15223",
+    "url": "https://arxiv.org/abs/2405.15223",
+    "title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+    "date": "2024-05-24",
+    "source": "arxiv"
+  }
+]

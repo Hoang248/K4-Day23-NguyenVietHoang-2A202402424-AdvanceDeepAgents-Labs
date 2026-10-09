@@ -1,0 +1,35 @@
+{
+  "recorded_at": "2026-10-09T09:03:23.5842378+00:00",
+  "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+  "exit_code": 0,
+  "tests": 33,
+  "result": "Observed passing tool output during this continuation",
+  "scope": "Offline synthetic fixtures; not evidence of real report generation",
+  "artifacts": [
+    {
+      "path": "tools.py",
+      "bytes": 19363,
+      "sha256": "67c2eb56025e982cb47386d2c3c1cc89f5e504cf2a619c393b3fbb3e59d1c78a"
+    },
+    {
+      "path": "agents.py",
+      "bytes": 9019,
+      "sha256": "4bb542b01932a249e2b49fbe4081895694fec6773f843292dbf5562e27c6e423"
+    },
+    {
+      "path": "research.py",
+      "bytes": 12575,
+      "sha256": "95ce915302abdf823fb315450df86b3de757837d101ec578e37abaee9e3abf93"
+    },
+    {
+      "path": "check_citations.py",
+      "bytes": 6361,
+      "sha256": "5bd700b02ce429a571dfb24c1e476acf624e9ad85f294a375d0cbd7d366068e2"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "bytes": 20598,
+      "sha256": "bbd024de919abc0cb73620d8373285449b19e3aad29f7d8b0011b3866b9bf6ff"
+    }
+  ]
+}

@@ -1,0 +1,59 @@
+{
+  "topic": "survey about reinforcement learning for llm reasoning",
+  "model": "openai:gpt-6-luna",
+  "elapsed_s": 749.2,
+  "subagent_calls": 13,
+  "tool_calls": {
+    "write_todos": 5,
+    "read_file": 19,
+    "ls": 2,
+    "task": 13,
+    "grep": 1,
+    "edit_file": 8,
+    "execute": 7,
+    "write_file": 1
+  },
+  "tokens": {
+    "input": 1135460,
+    "output": 18620
+  },
+  "n_sources": 13,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "token_scope": "lead messages only; excludes subagent usage",
+  "run_kind": "bounded review repair of a genuine prior run",
+  "previous_run": {
+    "topic": "survey about reinforcement learning for LLM reasoning",
+    "model": "openai:gpt-6-luna",
+    "elapsed_s": 1235.0,
+    "subagent_calls": 8,
+    "tool_calls": {
+      "write_todos": 3,
+      "task": 8,
+      "ls": 3,
+      "read_file": 12,
+      "write_file": 2,
+      "execute": 6,
+      "edit_file": 9
+    },
+    "tokens": {
+      "input": 1002907,
+      "output": 18346
+    },
+    "n_sources": 13,
+    "source_families": [
+      "arxiv",
+      "hf-search",
+      "web"
+    ],
+    "token_scope": "lead messages only; excludes subagent usage"
+  },
+  "previous_artifacts": {
+    ".md": "6533fad846fe0c28af91f448aa193b91e1c747ca3cdfd0606b1d960e9d51983c",
+    ".sources.json": "d104ac834f74465d781e05973da7f7e5d2d60c0498df5de9d8af7b863ca113e5",
+    ".meta.json": "eeb986e23e8e63c3ed3a0b0becb53d52a2fadb1e610977b4d04d88e8aac3acb2"
+  }
+}

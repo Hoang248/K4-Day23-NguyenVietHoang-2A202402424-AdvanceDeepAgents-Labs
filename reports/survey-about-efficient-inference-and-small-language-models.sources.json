@@ -1,0 +1,162 @@
+[
+  {
+    "n": 1,
+    "id": "1908.08962",
+    "url": "https://huggingface.co/papers/1908.08962",
+    "title": "Well-Read Students Learn Better: On the Importance of Pre-training Compact Models",
+    "date": "",
+    "source": "hf-search"
+  },
+  {
+    "n": 2,
+    "id": "2306.11644",
+    "url": "https://arxiv.org/abs/2306.11644",
+    "title": "Textbooks Are All You Need",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 3,
+    "id": "2309.05463",
+    "url": "https://arxiv.org/abs/2309.05463",
+    "title": "Textbooks Are All You Need II: phi-1.5 technical report",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2305.02301",
+    "url": "https://aclanthology.org/2023.findings-acl.507.pdf",
+    "title": "Distilling Step-by-Step! Outperforming Larger Language Models with Less Training Data and Smaller Model Sizes",
+    "date": "2023-07-09–14",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2309.06180",
+    "url": "https://arxiv.org/abs/2309.06180",
+    "title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+    "date": "2023-09-12",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2402.02750",
+    "url": "https://arxiv.org/abs/2402.02750",
+    "title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+    "date": "2024-02-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2210.17323",
+    "url": "https://arxiv.org/abs/2210.17323",
+    "title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2302.01318",
+    "url": "https://arxiv.org/abs/2302.01318",
+    "title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+    "date": "2023-02-02",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2307.08691",
+    "url": "https://arxiv.org/abs/2307.08691",
+    "title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+    "date": "2023-07-17",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2404.06395",
+    "url": "https://arxiv.org/html/2404.06395",
+    "title": "MiniCPM: Unveiling the Potential of Small Language Models with Scalable Training Strategies",
+    "date": "2024-06-03",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2504.11393",
+    "url": "https://huggingface.co/papers/2504.11393",
+    "title": "DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+    "date": "2025-04-15",
+    "source": "hf-search"
+  },
+  {
+    "n": 12,
+    "id": "2406.14833",
+    "url": "https://arxiv.org/abs/2406.14833",
+    "title": "Efficient Continual Pre-training by Mitigating the Stability Gap",
+    "date": "2024-06-27",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2409.15790",
+    "url": "https://arxiv.org/abs/2409.15790",
+    "title": "Small Language Models: Survey, Measurements, and Insights",
+    "date": "2025-02-26",
+    "source": "arxiv"
+  },
+  {
+    "n": 14,
+    "id": "2504.00002",
+    "url": "https://huggingface.co/papers/2504.00002",
+    "title": "Are We There Yet? A Measurement Study of Efficiency for LLM Applications on Mobile Devices",
+    "date": "2025-03-10",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2505.15030",
+    "url": "https://arxiv.org/abs/2505.15030",
+    "title": "A Systematic Evaluation of On-Device LLMs: Quantization, Performance, and Resources",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2508.15478",
+    "url": "https://arxiv.org/abs/2508.15478",
+    "title": "SLM-Bench: A Comprehensive Benchmark of Small Language Models on Environmental Impacts—Extended Version",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 17,
+    "id": "2505.16508",
+    "url": "https://arxiv.org/abs/2505.16508",
+    "title": "Edge-First Language Model Inference: Models, Metrics, and Tradeoffs",
+    "date": "2025-05-22",
+    "source": "web"
+  },
+  {
+    "n": 18,
+    "id": "2401.02385",
+    "url": "https://arxiv.org/html/2401.02385v2",
+    "title": "TinyLlama: An Open-Source Small Language Model",
+    "date": "2024-06-04",
+    "source": "web"
+  },
+  {
+    "n": 19,
+    "id": "2311.07052",
+    "url": "https://arxiv.org/abs/2311.07052",
+    "title": "Towards the Law of Capacity Gap in Distilling Language Models",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 20,
+    "id": "2025.acl-long.718",
+    "url": "https://aclanthology.org/2025.acl-long.718/",
+    "title": "Demystifying Small Language Models for Edge Deployment",
+    "date": "2025-07",
+    "source": "web"
+  }
+]

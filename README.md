@@ -1,5 +1,57 @@
 # Deep Research Agent (Deep Agents + Sandbox)
 
+## Bản triển khai và chạy trên Windows
+
+Bốn module sinh viên đã được triển khai. Hướng dẫn vận hành gọn từ harness nằm
+trong `PROJECT_CONTEXT.md`, `PLAN.md`, `docs/AGENT_CONTRACT.md`; kết quả kiểm tra
+thực tế nằm trong `docs/VERIFICATION.md`. Các fixture trong `tests/` là giả lập,
+không phải báo cáo nộp bài.
+
+Đã chạy đủ năm báo cáo thật bằng GPT-6 Luna + Docker và self_check.py pass.
+Mở [kết quả và liên kết báo cáo](docs/FINAL_RUN.md) và [review nguồn](docs/REPORT_REVIEW.md)
+để xem phạm vi kiểm tra, các lỗi đã sửa và metadata của từng lượt chạy.
+
+```powershell
+py -3.11 -m venv .venv
+.venv/Scripts/python.exe -m pip install -r requirements.txt
+# Điền .env theo .env.example; không đưa khóa lên Git hoặc vào chat.
+# Với Docker: đặt SANDBOX=docker và khởi động Docker Desktop (Linux containers).
+.venv/Scripts/python.exe -m unittest discover -s tests -v
+.venv/Scripts/python.exe scripts/smoke_sources.py
+.venv/Scripts/python.exe research.py "survey about world model"
+.venv/Scripts/python.exe run_topics.py
+.venv/Scripts/python.exe self_check.py
+.venv/Scripts/python.exe scripts/verify_submission.py
+```
+
+`run_topics.py` chạy lần lượt 5 chủ đề và dừng ở lần thất bại đầu tiên. Mỗi lần
+chạy thật dùng token của LLM; không chạy lại khi cấu hình chưa sẵn sàng.
+`scripts/smoke_sources.py` không gọi LLM, chỉ thử mỗi endpoint một lần để chẩn
+đoán nhanh; `python tools.py` dùng đầy đủ retry của ứng dụng. Với cấu hình hiện
+tại chỉ cần khóa OpenAI và Docker: Exa dùng endpoint không khóa. Khi Exa trả lỗi
+tạm thời, `web_fetch` thử đọc HTML/text trực tiếp từ URL công khai sau ba lần thử.
+Riêng các trang học thuật arXiv, HF, ACL, CVF và NeurIPS được đọc HTML gốc trước
+để giữ metadata và tránh số chú thích bị ghép vào số liệu.
+Khi tìm kiếm Exa thất bại tạm thời sau ba lần thử, cấu hình `openai:<model>`
+dùng web search của Responses API với cùng model và khóa OpenAI. Chỉ nhận kết
+quả tìm kiếm hoàn tất, có URL trích dẫn; các lời gọi này cũng tính phí OpenAI.
+Với endpoint tùy biến hoặc không có khóa OpenAI, công cụ trả lỗi để agent đổi nguồn.
+
+Trong `reports/`, `.md` là báo cáo, `.sources.json` là nguồn đã trích dẫn,
+`.meta.json` là thống kê từ tin nhắn lead. Token không bao gồm subagent và không
+đại diện tổng chi phí (cũng chưa gồm tìm kiếm OpenAI dự phòng). Report và sources
+được giữ nguyên bytes tải từ sandbox.
+Chỉ có kết quả chạy thật mới được ghi ở đây; chưa đủ năm bộ tệp thì chưa sẵn
+sàng nộp bài, dù kiểm thử mã đã pass.
+
+Để dùng GPT-6 Luna với OpenAI, đặt `LAB_MODEL=openai:gpt-6-luna`,
+`OPENAI_API_KEY=<khóa của bạn>` và `SANDBOX=docker` trong `.env`.
+Runner tự chọn Responses API cho Luna để dùng tool calling cùng reasoning.
+SDK dùng timeout 120 giây mỗi lần gọi và tối đa hai lần retry; console in tên
+công cụ đang chạy để theo dõi tiến độ, không in prompt hoặc khóa.
+Không cần đặt `LAB_TEMPERATURE`. Quyền truy cập model phụ thuộc tài khoản API.
+Xem [tài liệu model](https://developers.openai.com/api/docs/models/gpt-6-luna).
+
 Lab dựng một **hệ thống deep research đa tác tử**: người dùng chỉ cần nhập một chủ đề (ví dụ `survey about world model`), hệ thống tự lập kế hoạch, giao việc cho nhiều subagent, tìm tài liệu trên arXiv, Hugging Face và web, rồi viết một **báo cáo có trích dẫn**.
 
 Hình thức: **bài thực hành cá nhân**. Ngôn ngữ lập trình: Python 3.11 trở lên.
@@ -18,7 +70,7 @@ Sau lab, bạn có thể:
 
 ```mermaid
 flowchart TD
-    U["python research.py &quot;survey about world model&quot;"] --> S["open_sandbox() - Daytona"]
+    U["python research.py &quot;survey about world model&quot;"] --> S["open_sandbox() - Docker hoặc Daytona"]
     S --> L["Lead agent: write_todos, chia N câu hỏi con"]
     L -->|task x N, song song| R["researcher subagents"]
     R --> T1["arxiv_search"]
@@ -59,7 +111,7 @@ Lab/
 └── reports/                  báo cáo sinh ra (bạn commit vào repo nộp)
 ```
 
-Mỗi tệp "SINH VIÊN CÀI ĐẶT" là **pseudo-code chạy được** (import được): các hàm có docstring mô tả việc cần làm, các `TODO n` đánh số theo `GUIDE.md`, thân hàm đang `raise NotImplementedError`.
+Các tệp "SINH VIÊN CÀI ĐẶT" đã có triển khai; docstring và số mục giữ liên hệ với `GUIDE.md`.
 
 ## 4. Cài đặt
 
@@ -69,7 +121,8 @@ pip install -r requirements.txt
 cp .env.example .env                                     # rồi điền khóa CỦA BẠN
 ```
 
-Bạn cần ba loại khóa (điền vào `.env`, **không bao giờ commit** `.env`):
+Khóa LLM là bắt buộc khi dùng API trả phí; khóa sandbox và tìm kiếm là tùy chọn
+khi chạy Docker và Exa không khóa (điền vào `.env`, **không bao giờ commit** `.env`):
 
 | Khóa | Lấy ở đâu | Ghi chú |
 |---|---|---|

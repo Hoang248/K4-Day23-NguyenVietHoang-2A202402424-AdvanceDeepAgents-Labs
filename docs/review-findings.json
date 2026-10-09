@@ -1,0 +1,43 @@
+{
+  "review_date": "2026-10-09",
+  "scope": "Read all five reports, inspect all 76 unique source URLs, verify cited methods against author abstracts and detailed claims against full primary texts. Retrieval alone does not establish claim support.",
+  "repairs": [
+    {
+      "topic": "survey about world model",
+      "findings": [
+        {"citation": 9, "issue": "DWS attribution overstates its explicit conclusion by adding latency/quality limits. Attribute only its stated limitations: extended temporal horizons and high spatial resolutions. Keep any broader speed/quality discussion clearly marked as survey synthesis supported by appropriate sources.", "primary_url": "https://arxiv.org/html/2502.07825v1", "evidence": "Section 6 Conclusion and Limitation states that DWS is limited in modeling videos with extended temporal horizons or high spatial resolutions. Its related-work discussion claims reduced inference latency, which is not an explicit DWS latency limitation."}
+      ]
+    },
+    {
+      "topic": "survey about efficient inference and small language models",
+      "findings": [
+        {"citation": 4, "issue": "44 NLP benchmarks is incorrect; the author abstract and introduction say 4 NLP benchmarks.", "primary_url": "https://arxiv.org/abs/2305.02301", "evidence": "The abstract reports three findings across 4 NLP benchmarks. The 770M T5, 540B PaLM and 80% training-data comparison is supported."},
+        {"citation": 14, "issue": "Date 2025-02-06 is unsupported; the cited HF paper page displays Published on Mar 10, 2025.", "primary_url": "https://huggingface.co/papers/2504.00002", "evidence": "Published on Mar 10, 2025"},
+        {"citation": 18, "issue": "Around one trillion tokens omits repeated training epochs and can be mistaken for total token exposure. Clarify corpus size versus cumulative training and version scope.", "primary_url": "https://arxiv.org/html/2401.02385v2", "evidence": "Section 2.1: approximately 950 billion corpus tokens; approximately three epochs, cumulatively 3 trillion tokens. Section 2.5 and abstract footnote distinguish v1.1 trained for 2 trillion tokens with continued pretraining and cooldown."},
+        {"citation": 10, "issue": "The 1.2B and 2.4B MiniCPM sizes in the abstract explicitly exclude embedding parameters. Preserve that qualification.", "primary_url": "https://arxiv.org/abs/2404.06395", "evidence": "1.2B and 2.4B non-embedding parameter variants"}
+      ]
+    },
+    {
+      "topic": "survey about llm agents and tool use",
+      "findings": [
+        {"citation": 1, "issue": "MRKL date 2022-05-03 does not match the sole arXiv submission. Correct to 2022-05-01.", "primary_url": "https://arxiv.org/abs/2205.00445", "evidence": "Submission history v1: Sun, 1 May 2022 11:01:28 UTC"},
+        {"citation": 12, "issue": "AgentDojo date 2024-12-16 is absent from submission history. Use the verified first submission 2024-06-19.", "primary_url": "https://arxiv.org/abs/2406.13352", "evidence": "v1 19 Jun 2024; v2 18 Jul 2024; v3 24 Nov 2024. The 7.5% targeted-attack figure appears in the full paper's discussion of tool filtering; do not replace it with the different appendix aggregate without explaining metric scope."}
+      ]
+    },
+    {
+      "topic": "survey about reinforcement learning for llm reasoning",
+      "findings": [
+        {"citation": 10, "issue": "Date 2025-10-21 is unsupported; arXiv lists its sole submission on 2025-10-14.", "primary_url": "https://arxiv.org/abs/2510.15990", "evidence": "v1 Tue, 14 Oct 2025 00:37:52 UTC"},
+        {"citation": 6, "issue": "OpenReview forum is currently a browser-verification page, so its content/date cannot be verified. Replace this web-family source with the same paper's verified primary arXiv page, retaining web discovery provenance and fixing its id/date.", "primary_url": "https://arxiv.org/abs/2505.17218", "replacement_url": "https://arxiv.org/abs/2505.17218", "replacement_date": "2025-05-22", "evidence": "Author abstract describes preemptive sampling and gradient filtering and reports 83% lower training time than its standard GRPO implementation without sacrificing accuracy."}
+      ]
+    },
+    {
+      "topic": "survey about video and multimodal generation",
+      "findings": [
+        {"citation": 9, "issue": "Camera poses or trajectories for camera control conflates the two controls. Specify camera-pose sequences for camera motion and object trajectories for object motion.", "primary_url": "https://arxiv.org/html/2312.03641v2", "evidence": "Sections 3.2.1 and 3.2.2 define CMCM camera pose sequences and OMCM object trajectories respectively."},
+        {"citation": 8, "issue": "The cited CVPR proceedings PDF is a 2025 conference publication; 2024-12-03 is its preprint date. Use the publisher's June 2025 publication metadata for the cited proceedings version.", "primary_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Geng_Motion_Prompting_Controlling_Video_Generation_with_Motion_Trajectories_CVPR_2025_paper.html", "evidence": "Publisher BibTeX: booktitle CVPR, month June, year 2025."},
+        {"citation": 15, "issue": "Clarify training-data scope: the abstract describes limited videogame training data complemented by real-world footage. The 720p and up-to-16-FPS values are supported.", "primary_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7e810b2c75d69be186cadd2fe3febeab-Abstract-Conference.html", "evidence": "Publisher abstract describes limited videogame data complemented by real-world footage and reports 720p up to 16 FPS."}
+      ]
+    }
+  ]
+}

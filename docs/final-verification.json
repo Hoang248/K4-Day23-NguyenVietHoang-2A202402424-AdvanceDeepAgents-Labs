@@ -1,0 +1,542 @@
+{
+  "recorded_at": "2026-10-09T15:35:07.811826+00:00",
+  "checks": [
+    {
+      "command": [
+        "C:\\Users\\LENOVO\\K4-Day23-NguyenVietHoang-2A202402424-AdvanceDeepAgents-Labs\\.venv\\Scripts\\python.exe",
+        "-X",
+        "utf8",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "exit_code": 0,
+      "stdout": "Saved fixture.md\n",
+      "stderr": "test_code_and_links_do_not_count (test_lab.CitationTests.test_code_and_links_do_not_count) ... ok\ntest_duplicate_number_url_and_invalid_schema (test_lab.CitationTests.test_duplicate_number_url_and_invalid_schema) ... ok\ntest_missing_sources_and_heading (test_lab.CitationTests.test_missing_sources_and_heading) ... ok\ntest_reference_mismatch_multiple_urls_missing_and_duplicate (test_lab.CitationTests.test_reference_mismatch_multiple_urls_missing_and_duplicate) ... ok\ntest_source_family_urls_must_match_before_download (test_lab.CitationTests.test_source_family_urls_must_match_before_download) ... ok\ntest_unknown_and_uncited (test_lab.CitationTests.test_unknown_and_uncited) ... ok\ntest_valid_finalizer_output_and_groups (test_lab.CitationTests.test_valid_finalizer_output_and_groups) ... ok\ntest_backoff_cap_no_last_sleep (test_lab.RetryTests.test_backoff_cap_no_last_sleep) ... ok\ntest_http_transient_vs_permanent_and_transport (test_lab.RetryTests.test_http_transient_vs_permanent_and_transport) ... ok\ntest_permanent_error_and_invalid_attempts (test_lab.RetryTests.test_permanent_error_and_invalid_attempts) ... ok\ntest_retry_after_and_recovery (test_lab.RetryTests.test_retry_after_and_recovery) ... ok\ntest_agent_limits_and_compilation (test_lab.RunnerTests.test_agent_limits_and_compilation) ... ok\ntest_cli_failures (test_lab.RunnerTests.test_cli_failures) ... Usage: python research.py \"<topic>\"\nFAILED: RuntimeError: missing config\nok\ntest_invalid_recovery_candidate_stops_before_agent_and_cleans_up (test_lab.RunnerTests.test_invalid_recovery_candidate_stops_before_agent_and_cleans_up) ... FAILED: RuntimeError: recovery candidate must contain a nonempty report and source array\nok\ntest_invalid_run_writes_nothing (test_lab.RunnerTests.test_invalid_run_writes_nothing) ... ok\ntest_luna_uses_responses_for_tool_calling (test_lab.RunnerTests.test_luna_uses_responses_for_tool_calling) ... ok\ntest_main_failure_cleans_up_and_does_not_save (test_lab.RunnerTests.test_main_failure_cleans_up_and_does_not_save) ... FAILED: RuntimeError: graph failed\nok\ntest_main_sandbox_lifecycle_and_validation_order (test_lab.RunnerTests.test_main_sandbox_lifecycle_and_validation_order) ... ok\ntest_save_failure_rolls_back (test_lab.RunnerTests.test_save_failure_rolls_back) ... ok\ntest_save_preserves_sandbox_bytes_and_meta (test_lab.RunnerTests.test_save_preserves_sandbox_bytes_and_meta) ... ok\ntest_slug_safe_and_bounded (test_lab.RunnerTests.test_slug_safe_and_bounded) ... ok\ntest_summary_actual_usage_and_unknown (test_lab.RunnerTests.test_summary_actual_usage_and_unknown) ... ok\ntest_all_tools_return_error_not_raise (test_lab.SourceTests.test_all_tools_return_error_not_raise) ... ok\ntest_arxiv_normalization_and_sanitization (test_lab.SourceTests.test_arxiv_normalization_and_sanitization) ... ok\ntest_arxiv_spacing (test_lab.SourceTests.test_arxiv_spacing) ... ok\ntest_direct_fetch_rejects_binary_and_empty_pages (test_lab.SourceTests.test_direct_fetch_rejects_binary_and_empty_pages) ... ok\ntest_exa_arguments_truncation_and_redaction (test_lab.SourceTests.test_exa_arguments_truncation_and_redaction) ... ok\ntest_fetch_transient_fallback_reads_visible_html (test_lab.SourceTests.test_fetch_transient_fallback_reads_visible_html) ... ok\ntest_hf_filter_sort_ai_summary_and_missing_id (test_lab.SourceTests.test_hf_filter_sort_ai_summary_and_missing_id) ... ok\ntest_inactive_rate_limit_flag_is_success (test_lab.SourceTests.test_inactive_rate_limit_flag_is_success) ... ok\ntest_mcp_json_and_sse (test_lab.SourceTests.test_mcp_json_and_sse) ... ok\ntest_mcp_rate_limit_200_and_errors (test_lab.SourceTests.test_mcp_rate_limit_200_and_errors) ... ok\ntest_primary_academic_html_precedes_mcp_extraction (test_lab.SourceTests.test_primary_academic_html_precedes_mcp_extraction) ... ok\ntest_search_uses_same_openai_model_and_cited_urls_after_exa_limit (test_lab.SourceTests.test_search_uses_same_openai_model_and_cited_urls_after_exa_limit) ... ok\ntest_source_prose_about_rate_limits_is_not_a_service_error (test_lab.SourceTests.test_source_prose_about_rate_limits_is_not_a_service_error) ... ok\n\n----------------------------------------------------------------------\nRan 35 tests in 0.831s\n\nOK\n"
+    },
+    {
+      "command": [
+        "C:\\Users\\LENOVO\\K4-Day23-NguyenVietHoang-2A202402424-AdvanceDeepAgents-Labs\\.venv\\Scripts\\python.exe",
+        "self_check.py"
+      ],
+      "exit_code": 0,
+      "stdout": "topic                                                        result\nsurvey about world model                                     OK\nsurvey about reinforcement learning for LLM reasoning        OK\nsurvey about LLM agents and tool use                         OK\nsurvey about video and multimodal generation                 OK\nsurvey about efficient inference and small language models   OK\ngit / secrets                                                OK\n\nREADY to submit (the manual parts of RUBRIC.md are still graded by a person).\n",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--exit-code",
+        "--",
+        "model.py",
+        "sandbox.py",
+        "self_check.py",
+        "finalize_citations.py"
+      ],
+      "exit_code": 0,
+      "stdout": "",
+      "stderr": ""
+    },
+    {
+      "check": "tracked and untracked submission text secret-pattern scan",
+      "exit_code": 0,
+      "flagged_paths": []
+    },
+    {
+      "check": "all local Git history secret-pattern scan",
+      "exit_code": 0,
+      "secret_pattern_detected": false
+    },
+    {
+      "check": "initial world-model preserved or linked to validated review repair",
+      "exit_code": 0,
+      "unchanged": false,
+      "review_lineage_matches_baseline": true
+    }
+  ],
+  "reports": [
+    {
+      "topic": "survey about world model",
+      "meta_path": "reports\\survey-about-world-model.meta.json",
+      "metadata": {
+        "topic": "survey about world model",
+        "model": "openai:gpt-6-luna",
+        "elapsed_s": 311.4,
+        "subagent_calls": 5,
+        "tool_calls": {
+          "write_todos": 4,
+          "ls": 2,
+          "read_file": 12,
+          "task": 5,
+          "glob": 1,
+          "edit_file": 6,
+          "execute": 4,
+          "write_file": 1
+        },
+        "tokens": {
+          "input": 442140,
+          "output": 9875
+        },
+        "n_sources": 12,
+        "source_families": [
+          "arxiv",
+          "hf-search",
+          "web"
+        ],
+        "token_scope": "lead messages only; excludes subagent usage",
+        "run_kind": "bounded review repair of a genuine prior run",
+        "previous_run": {
+          "topic": "survey about world model",
+          "model": "openai:gpt-6-luna",
+          "elapsed_s": 406.6,
+          "subagent_calls": 6,
+          "tool_calls": {
+            "write_todos": 4,
+            "task": 6,
+            "ls": 2,
+            "read_file": 8,
+            "write_file": 2,
+            "execute": 4,
+            "edit_file": 5,
+            "grep": 2
+          },
+          "tokens": {
+            "input": 485881,
+            "output": 9210
+          },
+          "n_sources": 12,
+          "source_families": [
+            "arxiv",
+            "hf-search",
+            "web"
+          ],
+          "token_scope": "lead messages only; excludes subagent usage"
+        },
+        "previous_artifacts": {
+          ".md": "fb6abc239a314538598b7826e3f4a4494beb6747c971164234a281a61b720fb7",
+          ".sources.json": "d92159bc1ce29b44e4f77588921a341ad105b8965eb9fb7af89034306288dc8c",
+          ".meta.json": "2159814870d78fc5a036f6fdd90b1f1d696018b2f278b206e63359a298f4b1c4"
+        }
+      }
+    },
+    {
+      "topic": "survey about reinforcement learning for LLM reasoning",
+      "meta_path": "reports\\survey-about-reinforcement-learning-for-llm-reasoning.meta.json",
+      "metadata": {
+        "topic": "survey about reinforcement learning for llm reasoning",
+        "model": "openai:gpt-6-luna",
+        "elapsed_s": 749.2,
+        "subagent_calls": 13,
+        "tool_calls": {
+          "write_todos": 5,
+          "read_file": 19,
+          "ls": 2,
+          "task": 13,
+          "grep": 1,
+          "edit_file": 8,
+          "execute": 7,
+          "write_file": 1
+        },
+        "tokens": {
+          "input": 1135460,
+          "output": 18620
+        },
+        "n_sources": 13,
+        "source_families": [
+          "arxiv",
+          "hf-search",
+          "web"
+        ],
+        "token_scope": "lead messages only; excludes subagent usage",
+        "run_kind": "bounded review repair of a genuine prior run",
+        "previous_run": {
+          "topic": "survey about reinforcement learning for LLM reasoning",
+          "model": "openai:gpt-6-luna",
+          "elapsed_s": 1235.0,
+          "subagent_calls": 8,
+          "tool_calls": {
+            "write_todos": 3,
+            "task": 8,
+            "ls": 3,
+            "read_file": 12,
+            "write_file": 2,
+            "execute": 6,
+            "edit_file": 9
+          },
+          "tokens": {
+            "input": 1002907,
+            "output": 18346
+          },
+          "n_sources": 13,
+          "source_families": [
+            "arxiv",
+            "hf-search",
+            "web"
+          ],
+          "token_scope": "lead messages only; excludes subagent usage"
+        },
+        "previous_artifacts": {
+          ".md": "6533fad846fe0c28af91f448aa193b91e1c747ca3cdfd0606b1d960e9d51983c",
+          ".sources.json": "d104ac834f74465d781e05973da7f7e5d2d60c0498df5de9d8af7b863ca113e5",
+          ".meta.json": "eeb986e23e8e63c3ed3a0b0becb53d52a2fadb1e610977b4d04d88e8aac3acb2"
+        }
+      }
+    },
+    {
+      "topic": "survey about LLM agents and tool use",
+      "meta_path": "reports\\survey-about-llm-agents-and-tool-use.meta.json",
+      "metadata": {
+        "topic": "survey about llm agents and tool use",
+        "model": "openai:gpt-6-luna",
+        "elapsed_s": 365.7,
+        "subagent_calls": 6,
+        "tool_calls": {
+          "write_todos": 3,
+          "ls": 1,
+          "read_file": 12,
+          "task": 6,
+          "edit_file": 4,
+          "execute": 2,
+          "write_file": 1
+        },
+        "tokens": {
+          "input": 328129,
+          "output": 6805
+        },
+        "n_sources": 15,
+        "source_families": [
+          "arxiv",
+          "hf-search",
+          "web"
+        ],
+        "token_scope": "lead messages only; excludes subagent usage",
+        "run_kind": "bounded review repair of a genuine prior run",
+        "previous_run": {
+          "topic": "survey about LLM agents and tool use",
+          "model": "openai:gpt-6-luna",
+          "elapsed_s": 314.7,
+          "subagent_calls": 6,
+          "tool_calls": {
+            "write_todos": 5,
+            "ls": 3,
+            "read_file": 11,
+            "task": 6,
+            "write_file": 2,
+            "edit_file": 6,
+            "execute": 3
+          },
+          "tokens": {
+            "input": 592457,
+            "output": 10974
+          },
+          "n_sources": 15,
+          "source_families": [
+            "arxiv",
+            "hf-search",
+            "web"
+          ],
+          "token_scope": "lead messages only; excludes subagent usage"
+        },
+        "previous_artifacts": {
+          ".md": "502342eafa77efe29d3dd9f7e427481306d208ad6c9c0c95d058f5365ca256e1",
+          ".sources.json": "cea2e7124faec8a69b142401ec6e37a1400accbb81196728d3950a6363da9110",
+          ".meta.json": "8cf1d2cf305b421fc2563124d81bd2fabe089bba13ed9d40332a128a8330bd8c"
+        }
+      }
+    },
+    {
+      "topic": "survey about video and multimodal generation",
+      "meta_path": "reports\\survey-about-video-and-multimodal-generation.meta.json",
+      "metadata": {
+        "topic": "survey about video and multimodal generation",
+        "model": "openai:gpt-6-luna",
+        "elapsed_s": 1075.8,
+        "subagent_calls": 10,
+        "tool_calls": {
+          "write_todos": 5,
+          "read_file": 16,
+          "task": 10,
+          "edit_file": 11,
+          "execute": 3,
+          "write_file": 1
+        },
+        "tokens": {
+          "input": 905496,
+          "output": 15817
+        },
+        "n_sources": 17,
+        "source_families": [
+          "arxiv",
+          "hf-search",
+          "web"
+        ],
+        "token_scope": "lead messages only; excludes subagent usage",
+        "run_kind": "bounded review repair of a genuine prior run",
+        "previous_run": {
+          "topic": "survey about video and multimodal generation",
+          "model": "openai:gpt-6-luna",
+          "elapsed_s": 427.8,
+          "subagent_calls": 13,
+          "tool_calls": {
+            "write_todos": 4,
+            "task": 13,
+            "ls": 3,
+            "read_file": 9,
+            "write_file": 2,
+            "execute": 3,
+            "edit_file": 5
+          },
+          "tokens": {
+            "input": 618443,
+            "output": 11905
+          },
+          "n_sources": 16,
+          "source_families": [
+            "arxiv",
+            "hf-search",
+            "web"
+          ],
+          "token_scope": "lead messages only; excludes subagent usage"
+        },
+        "previous_artifacts": {
+          ".md": "943502973c1819fb94e58b8231b1c90fa2c943c224c3906162b16fb253dd9dd2",
+          ".sources.json": "5848968e930a0536630ce18296a54187e57c52eeb366086830a6f1d3679a2a45",
+          ".meta.json": "918e6aa97bc36e94e9a6eceb737199f584c80cc389be33ed46715952f6db93df"
+        }
+      }
+    },
+    {
+      "topic": "survey about efficient inference and small language models",
+      "meta_path": "reports\\survey-about-efficient-inference-and-small-language-models.meta.json",
+      "metadata": {
+        "topic": "survey about efficient inference and small language models",
+        "model": "openai:gpt-6-luna",
+        "elapsed_s": 556.7,
+        "subagent_calls": 10,
+        "tool_calls": {
+          "write_todos": 3,
+          "ls": 2,
+          "read_file": 15,
+          "task": 10,
+          "edit_file": 15,
+          "execute": 6,
+          "write_file": 1
+        },
+        "tokens": {
+          "input": 1299304,
+          "output": 22657
+        },
+        "n_sources": 20,
+        "source_families": [
+          "arxiv",
+          "hf-search",
+          "web"
+        ],
+        "token_scope": "lead messages only; excludes subagent usage",
+        "run_kind": "bounded review repair of a genuine prior run",
+        "previous_run": {
+          "topic": "survey about efficient inference and small language models",
+          "model": "openai:gpt-6-luna",
+          "elapsed_s": 312.0,
+          "subagent_calls": 4,
+          "tool_calls": {
+            "write_todos": 5,
+            "task": 4,
+            "read_file": 8,
+            "ls": 1,
+            "write_file": 2,
+            "execute": 2,
+            "edit_file": 3
+          },
+          "tokens": {
+            "input": 372885,
+            "output": 9502
+          },
+          "n_sources": 20,
+          "source_families": [
+            "arxiv",
+            "hf-search",
+            "web"
+          ],
+          "token_scope": "lead messages only; excludes subagent usage"
+        },
+        "previous_artifacts": {
+          ".md": "cb9229207c045f9c6ef42ebf97e08cc805f63703a6e4e541a81235e00b67419d",
+          ".sources.json": "edd06f8774b09d511a91cedf3e5096596173735eff10d7a93ff6b7b61fb13785",
+          ".meta.json": "13097b6f153b59685d265bcfc6d27f19b9e969640e83795fd60433dbaa28d6ee"
+        },
+        "citation_metadata_repair": {
+          "recorded_at": "2026-10-09T15:18:01.868622+00:00",
+          "kind": "deterministic sandbox source-date correction",
+          "changes": [
+            {
+              "n": 14,
+              "url": "https://huggingface.co/papers/2504.00002",
+              "date": "2025-03-10",
+              "visible_evidence": "Published on Mar 10, 2025"
+            },
+            {
+              "n": 18,
+              "url": "https://arxiv.org/html/2401.02385v2",
+              "date": "2024-06-04",
+              "visible_evidence": "arXiv:2401.02385v2 [cs.CL] 04 Jun 2024"
+            }
+          ],
+          "llm_calls": 0,
+          "before_sha256": {
+            ".md": "7b10db911059386475a8c29a2633653a724efef548757c904c3e0cfce6d16890",
+            ".sources.json": "8bb271407324087d3d1e8561445b211b4a6ec343e285a877cbe85a7817c3719e",
+            ".meta.json": "17f8d76887c4fad26400c476aefba0d4820b733ab5dbff0264f6347490304835"
+          }
+        }
+      }
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "tools.py",
+      "bytes": 20311,
+      "sha256": "ceaac56fcc493cf8a8731530f88fa6353e9e3594dfefc42ef6b595087a1c225b"
+    },
+    {
+      "path": "agents.py",
+      "bytes": 9323,
+      "sha256": "8287b42a273e34283769e44d95d3408d1ee4bce3e43b6446c971a7d1ab3ecd90"
+    },
+    {
+      "path": "research.py",
+      "bytes": 12577,
+      "sha256": "9e1759ab6f84be26656283476c3d35dcd7ff3c355852232d9f1b585ac3b41d02"
+    },
+    {
+      "path": "check_citations.py",
+      "bytes": 6361,
+      "sha256": "5bd700b02ce429a571dfb24c1e476acf624e9ad85f294a375d0cbd7d366068e2"
+    },
+    {
+      "path": "model.py",
+      "bytes": 2244,
+      "sha256": "a9e82039c84d52f1bd08481e78d72947eca99eb5bbde3a2ba7bd9e1981696853"
+    },
+    {
+      "path": "sandbox.py",
+      "bytes": 6452,
+      "sha256": "6b34f187ba60ca29a9dcd89d2aeb4f38e30a9613c7a1bc84e09ebe7edd8144e9"
+    },
+    {
+      "path": "self_check.py",
+      "bytes": 4964,
+      "sha256": "878fe514e3684b4a829963632bbce619930641babe62b01c5c6150b282c55368"
+    },
+    {
+      "path": "finalize_citations.py",
+      "bytes": 4967,
+      "sha256": "d3a0ddaeb042a630a8066d7b327d0cb385cbe03e7a22dca107324f7e6a1280b9"
+    },
+    {
+      "path": "tests/test_lab.py",
+      "bytes": 21643,
+      "sha256": "2934ca4dd67e9968af36c766a8e0af74836dbf40169c3a25f5e55289d9d45840"
+    },
+    {
+      "path": "run_topics.py",
+      "bytes": 533,
+      "sha256": "69fe3c7ced028c91c9c6207396d4f966df2347df93cf72ff0c8a1a6acb3cc25b"
+    },
+    {
+      "path": "reports/.gitkeep",
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "reports/survey-about-efficient-inference-and-small-language-models.md",
+      "bytes": 15051,
+      "sha256": "b9c1faf5f3498a113f2acfd6d861d4590934b80a9988e098fb2735bcf5fa54e6"
+    },
+    {
+      "path": "reports/survey-about-efficient-inference-and-small-language-models.meta.json",
+      "bytes": 2297,
+      "sha256": "58a6b6e7a36820aa8e3a90f658b4fb010a026d0c3a636d218afda4c3cdea2771"
+    },
+    {
+      "path": "reports/survey-about-efficient-inference-and-small-language-models.sources.json",
+      "bytes": 4561,
+      "sha256": "e9f325d0a01e21250fc8cd9a52bec1179db27f01724848f3ace9ce01b0e0f22a"
+    },
+    {
+      "path": "reports/survey-about-llm-agents-and-tool-use.md",
+      "bytes": 12443,
+      "sha256": "fac8ea0235bf86137ee17395bb325a483435fc26e7db1dc474de60e3d2694f89"
+    },
+    {
+      "path": "reports/survey-about-llm-agents-and-tool-use.meta.json",
+      "bytes": 1458,
+      "sha256": "3554c380263e3ad46769822ca3c973a868bcff8c714a201f23d8d742dd5986ae"
+    },
+    {
+      "path": "reports/survey-about-llm-agents-and-tool-use.sources.json",
+      "bytes": 3504,
+      "sha256": "fc0ea1823df68915926ed86d7a76b014ec9f97b6adb72d71c99ffacb23539b68"
+    },
+    {
+      "path": "reports/survey-about-reinforcement-learning-for-llm-reasoning.md",
+      "bytes": 12469,
+      "sha256": "c5cd523f349585e4fda207c910bcfbaf658df1e14f964deaf650511d164e2012"
+    },
+    {
+      "path": "reports/survey-about-reinforcement-learning-for-llm-reasoning.meta.json",
+      "bytes": 1514,
+      "sha256": "8c720eb2ea76f3f764291466d083c1a8a32876c3aff9741c9312082b41d569be"
+    },
+    {
+      "path": "reports/survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+      "bytes": 3033,
+      "sha256": "b578ebb5204f06e69df20317ca043d85386784a367c2a5e888af649b56f1004a"
+    },
+    {
+      "path": "reports/survey-about-video-and-multimodal-generation.md",
+      "bytes": 13536,
+      "sha256": "430c7eecc4b93a85c59fd9362e9afa7d8bc173023b1fc2906a006d6e4df5da84"
+    },
+    {
+      "path": "reports/survey-about-video-and-multimodal-generation.meta.json",
+      "bytes": 1466,
+      "sha256": "3e849acbfb326b01327a17981cd56c7cbe6b628361aaecb86358c0dedfe9d4f0"
+    },
+    {
+      "path": "reports/survey-about-video-and-multimodal-generation.sources.json",
+      "bytes": 4067,
+      "sha256": "0af98a0967888a744a9f6157029c53be0322a467d196910569639f44163b0f16"
+    },
+    {
+      "path": "reports/survey-about-world-model.md",
+      "bytes": 10626,
+      "sha256": "f714555a6ab4ffa284ae96fa5e3b73512e1e86dfb8f67e612ede03733749744f"
+    },
+    {
+      "path": "reports/survey-about-world-model.meta.json",
+      "bytes": 1466,
+      "sha256": "c9531cd629499b554a8727b9fb68f024bc782832d77d0e7af1cac690b0b1255a"
+    },
+    {
+      "path": "reports/survey-about-world-model.sources.json",
+      "bytes": 2486,
+      "sha256": "f44e68468a390d831e31229453b7d4f0cb3309107e3c2a70b4475dce92b6cf5b"
+    }
+  ],
+  "limits": "Regression tests, structural validation and pattern scan; see REPORT_REVIEW.md for claim review. Lead tokens exclude subagents, fallback search and failed runs; total cost is unknown."
+}

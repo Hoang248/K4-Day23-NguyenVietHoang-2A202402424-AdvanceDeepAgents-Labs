@@ -1,0 +1,7 @@
+{
+  "recorded_at": "2026-10-09T15:33:41.4409741+00:00",
+  "command": "docker ps -a --filter name=deepresearch --format '{{.Names}} {{.Status}}'",
+  "exit_code": 0,
+  "stdout": "",
+  "result": "Observed after all five reviewed reports completed"
+}

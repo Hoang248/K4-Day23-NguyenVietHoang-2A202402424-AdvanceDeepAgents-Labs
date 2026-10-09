@@ -1,0 +1,122 @@
+[
+  {
+    "n": 1,
+    "id": "2205.00445",
+    "url": "https://arxiv.org/abs/2205.00445",
+    "title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+    "date": "2022-05-01",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2210.03629",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "date": "2023-03-10",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2302.04761",
+    "url": "https://arxiv.org/abs/2302.04761",
+    "title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+    "date": "2023-02-09",
+    "source": "arxiv"
+  },
+  {
+    "n": 4,
+    "id": "2305.15334",
+    "url": "https://arxiv.org/abs/2305.15334",
+    "title": "Gorilla: Large Language Model Connected with Massive APIs",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 5,
+    "id": "2307.16789",
+    "url": "https://arxiv.org/abs/2307.16789",
+    "title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 6,
+    "id": "2305.17126",
+    "url": "https://arxiv.org/abs/2305.17126",
+    "title": "Large Language Models as Tool Makers",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 7,
+    "id": "2305.14318",
+    "url": "https://arxiv.org/abs/2305.14318",
+    "title": "CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 8,
+    "id": "2304.08244",
+    "url": "https://arxiv.org/abs/2304.08244",
+    "title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+    "date": "",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2403.07714",
+    "url": "https://aclanthology.org/2024.findings-acl.664/",
+    "title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+    "date": "2024-08",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2406.12045",
+    "url": "https://arxiv.org/abs/2406.12045",
+    "title": "τ-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+    "date": "",
+    "source": "arxiv"
+  },
+  {
+    "n": 11,
+    "id": "2024.findings-acl.624",
+    "url": "https://aclanthology.org/2024.findings-acl.624/",
+    "title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+    "date": "2024",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2406.13352",
+    "url": "https://arxiv.org/abs/2406.13352",
+    "title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+    "date": "2024-06-19",
+    "source": "arxiv"
+  },
+  {
+    "n": 13,
+    "id": "2025-03-26/server/tools",
+    "url": "https://modelcontextprotocol.io/specification/2025-03-26/server/tools",
+    "title": "Tools - Model Context Protocol",
+    "date": "2025-03-26",
+    "source": "web"
+  },
+  {
+    "n": 14,
+    "id": "2504.18575",
+    "url": "https://huggingface.co/papers/2504.18575",
+    "title": "WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+    "date": "2025-04-22",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2401.07324",
+    "url": "https://huggingface.co/papers/2401.07324",
+    "title": "Small LLMs Are Weak Tool Learners: A Multi-LLM Agent",
+    "date": "2024-01-14",
+    "source": "hf-search"
+  }
+]

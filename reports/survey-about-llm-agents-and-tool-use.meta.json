@@ -1,0 +1,58 @@
+{
+  "topic": "survey about llm agents and tool use",
+  "model": "openai:gpt-6-luna",
+  "elapsed_s": 365.7,
+  "subagent_calls": 6,
+  "tool_calls": {
+    "write_todos": 3,
+    "ls": 1,
+    "read_file": 12,
+    "task": 6,
+    "edit_file": 4,
+    "execute": 2,
+    "write_file": 1
+  },
+  "tokens": {
+    "input": 328129,
+    "output": 6805
+  },
+  "n_sources": 15,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "token_scope": "lead messages only; excludes subagent usage",
+  "run_kind": "bounded review repair of a genuine prior run",
+  "previous_run": {
+    "topic": "survey about LLM agents and tool use",
+    "model": "openai:gpt-6-luna",
+    "elapsed_s": 314.7,
+    "subagent_calls": 6,
+    "tool_calls": {
+      "write_todos": 5,
+      "ls": 3,
+      "read_file": 11,
+      "task": 6,
+      "write_file": 2,
+      "edit_file": 6,
+      "execute": 3
+    },
+    "tokens": {
+      "input": 592457,
+      "output": 10974
+    },
+    "n_sources": 15,
+    "source_families": [
+      "arxiv",
+      "hf-search",
+      "web"
+    ],
+    "token_scope": "lead messages only; excludes subagent usage"
+  },
+  "previous_artifacts": {
+    ".md": "502342eafa77efe29d3dd9f7e427481306d208ad6c9c0c95d058f5365ca256e1",
+    ".sources.json": "cea2e7124faec8a69b142401ec6e37a1400accbb81196728d3950a6363da9110",
+    ".meta.json": "8cf1d2cf305b421fc2563124d81bd2fabe089bba13ed9d40332a128a8330bd8c"
+  }
+}

@@ -1,0 +1,82 @@
+{
+  "topic": "survey about efficient inference and small language models",
+  "model": "openai:gpt-6-luna",
+  "elapsed_s": 556.7,
+  "subagent_calls": 10,
+  "tool_calls": {
+    "write_todos": 3,
+    "ls": 2,
+    "read_file": 15,
+    "task": 10,
+    "edit_file": 15,
+    "execute": 6,
+    "write_file": 1
+  },
+  "tokens": {
+    "input": 1299304,
+    "output": 22657
+  },
+  "n_sources": 20,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "token_scope": "lead messages only; excludes subagent usage",
+  "run_kind": "bounded review repair of a genuine prior run",
+  "previous_run": {
+    "topic": "survey about efficient inference and small language models",
+    "model": "openai:gpt-6-luna",
+    "elapsed_s": 312.0,
+    "subagent_calls": 4,
+    "tool_calls": {
+      "write_todos": 5,
+      "task": 4,
+      "read_file": 8,
+      "ls": 1,
+      "write_file": 2,
+      "execute": 2,
+      "edit_file": 3
+    },
+    "tokens": {
+      "input": 372885,
+      "output": 9502
+    },
+    "n_sources": 20,
+    "source_families": [
+      "arxiv",
+      "hf-search",
+      "web"
+    ],
+    "token_scope": "lead messages only; excludes subagent usage"
+  },
+  "previous_artifacts": {
+    ".md": "cb9229207c045f9c6ef42ebf97e08cc805f63703a6e4e541a81235e00b67419d",
+    ".sources.json": "edd06f8774b09d511a91cedf3e5096596173735eff10d7a93ff6b7b61fb13785",
+    ".meta.json": "13097b6f153b59685d265bcfc6d27f19b9e969640e83795fd60433dbaa28d6ee"
+  },
+  "citation_metadata_repair": {
+    "recorded_at": "2026-10-09T15:18:01.868622+00:00",
+    "kind": "deterministic sandbox source-date correction",
+    "changes": [
+      {
+        "n": 14,
+        "url": "https://huggingface.co/papers/2504.00002",
+        "date": "2025-03-10",
+        "visible_evidence": "Published on Mar 10, 2025"
+      },
+      {
+        "n": 18,
+        "url": "https://arxiv.org/html/2401.02385v2",
+        "date": "2024-06-04",
+        "visible_evidence": "arXiv:2401.02385v2 [cs.CL] 04 Jun 2024"
+      }
+    ],
+    "llm_calls": 0,
+    "before_sha256": {
+      ".md": "7b10db911059386475a8c29a2633653a724efef548757c904c3e0cfce6d16890",
+      ".sources.json": "8bb271407324087d3d1e8561445b211b4a6ec343e285a877cbe85a7817c3719e",
+      ".meta.json": "17f8d76887c4fad26400c476aefba0d4820b733ab5dbff0264f6347490304835"
+    }
+  }
+}

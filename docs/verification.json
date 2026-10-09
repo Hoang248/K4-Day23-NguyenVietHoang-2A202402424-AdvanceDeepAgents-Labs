@@ -1,0 +1,82 @@
+{
+  "recorded_at": "2026-10-09T05:42:18.633608+00:00",
+  "execution_mode": "offline synthetic regression plus live source smoke; no LLM research runs",
+  "python": "3.11.7",
+  "deepagents": "0.7.21",
+  "tests": {
+    "passed": 28,
+    "failed": 0,
+    "command": ".venv/Scripts/python.exe -m unittest discover -s tests -v",
+    "executor": "outside Windows sandbox"
+  },
+  "live_sources": {
+    "arxiv_search": "returned evidence",
+    "hf_daily_papers": "returned evidence",
+    "hf_search_papers": "returned evidence",
+    "web_search": "returned evidence",
+    "web_fetch": "returned evidence"
+  },
+  "submission_ready": false,
+  "genuine_reports": 0,
+  "independent_review": false,
+  "total_llm_tokens": null,
+  "total_cost": null,
+  "artifacts": [
+    {
+      "path": "tools.py",
+      "sha256": "b62215e50ca214450c24930408ddcf5bfc334499af1593529a8f7ef6f63ee588",
+      "bytes": 15477
+    },
+    {
+      "path": "agents.py",
+      "sha256": "30acbf42c3fa330631e6c21b51bdc7fd4c23b79a275cb50ced3731316ebf45dc",
+      "bytes": 8774
+    },
+    {
+      "path": "research.py",
+      "sha256": "d4351dfa3e9d132bc522dad8061dfc5a6b4b32b81fd7dd93894077fc857fef69",
+      "bytes": 9545
+    },
+    {
+      "path": "check_citations.py",
+      "sha256": "f38587d07dae71eb7a65a34d3452c484f3d1d183d4040e3c266dd10917a65865",
+      "bytes": 5582
+    },
+    {
+      "path": "tests/test_lab.py",
+      "sha256": "4a019a56a843ef6574fc46e0111ded1e21c777994010d9197194b4afd5afcebe",
+      "bytes": 16126
+    },
+    {
+      "path": "run_topics.py",
+      "sha256": "69fe3c7ced028c91c9c6207396d4f966df2347df93cf72ff0c8a1a6acb3cc25b",
+      "bytes": 533
+    },
+    {
+      "path": "scripts/smoke_sources.py",
+      "sha256": "a9532cbab161b2085e603427c71e42281fc33b70fd41945553ae1a7e73961ea7",
+      "bytes": 1202
+    },
+    {
+      "path": "model.py",
+      "sha256": "a9e82039c84d52f1bd08481e78d72947eca99eb5bbde3a2ba7bd9e1981696853",
+      "bytes": 2244
+    },
+    {
+      "path": "sandbox.py",
+      "sha256": "6b34f187ba60ca29a9dcd89d2aeb4f38e30a9613c7a1bc84e09ebe7edd8144e9",
+      "bytes": 6452
+    },
+    {
+      "path": "self_check.py",
+      "sha256": "878fe514e3684b4a829963632bbce619930641babe62b01c5c6150b282c55368",
+      "bytes": 4964
+    },
+    {
+      "path": "finalize_citations.py",
+      "sha256": "d3a0ddaeb042a630a8066d7b327d0cb385cbe03e7a22dca107324f7e6a1280b9",
+      "bytes": 4967
+    }
+  ],
+  "luna_compatibility": "Responses API payload and function tools verified offline; live model not called"
+}

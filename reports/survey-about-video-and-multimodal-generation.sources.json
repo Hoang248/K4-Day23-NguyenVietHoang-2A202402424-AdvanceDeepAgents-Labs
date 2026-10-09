@@ -1,0 +1,138 @@
+[
+  {
+    "n": 1,
+    "id": "2204.03458",
+    "url": "https://arxiv.org/abs/2204.03458",
+    "title": "Video Diffusion Models",
+    "date": "2022-04-07",
+    "source": "arxiv"
+  },
+  {
+    "n": 2,
+    "id": "2210.02399",
+    "url": "https://arxiv.org/abs/2210.02399",
+    "title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description",
+    "date": "2022-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 3,
+    "id": "2311.15127",
+    "url": "https://arxiv.org/abs/2311.15127",
+    "title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+    "date": "2023-11-25",
+    "source": "web"
+  },
+  {
+    "n": 4,
+    "id": "2312.14125",
+    "url": "https://arxiv.org/abs/2312.14125",
+    "title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+    "date": "2023-12-21",
+    "source": "web"
+  },
+  {
+    "n": 5,
+    "id": "2401.12945",
+    "url": "https://arxiv.org/abs/2401.12945",
+    "title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+    "date": "2024-02-05",
+    "source": "web"
+  },
+  {
+    "n": 6,
+    "id": "2410.20502",
+    "url": "https://arxiv.org/abs/2410.20502",
+    "title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+    "date": "2024-10-27",
+    "source": "web"
+  },
+  {
+    "n": 7,
+    "id": "2502.12632",
+    "url": "https://arxiv.org/abs/2502.12632",
+    "title": "MALT Diffusion: Memory-Augmented Latent Transformers for Any-Length Video Generation",
+    "date": "2025-02-18",
+    "source": "web"
+  },
+  {
+    "n": 8,
+    "id": "2412.02700",
+    "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Geng_Motion_Prompting_Controlling_Video_Generation_with_Motion_Trajectories_CVPR_2025_paper.html",
+    "title": "Motion Prompting: Controlling Video Generation with Motion Trajectories",
+    "date": "2025-06",
+    "source": "web"
+  },
+  {
+    "n": 9,
+    "id": "2312.03641",
+    "url": "https://arxiv.org/html/2312.03641v2",
+    "title": "MotionCtrl: A Unified and Flexible Motion Controller for Video Generation",
+    "date": "2023-12-06",
+    "source": "web"
+  },
+  {
+    "n": 10,
+    "id": "2507.06119",
+    "url": "https://arxiv.org/abs/2507.06119",
+    "title": "Omni-Video: Democratizing Unified Video Understanding and Generation",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 11,
+    "id": "2508.00782",
+    "url": "https://arxiv.org/abs/2508.00782",
+    "title": "SpA2V: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 12,
+    "id": "2304.14404",
+    "url": "https://arxiv.org/abs/2304.14404",
+    "title": "Motion-Conditioned Diffusion Model for Controllable Video Synthesis",
+    "date": "2023",
+    "source": "web"
+  },
+  {
+    "n": 13,
+    "id": "2311.17982",
+    "url": "https://huggingface.co/papers/2311.17982",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "date": "2023-11-29",
+    "source": "hf-search"
+  },
+  {
+    "n": 14,
+    "id": "2406.08656",
+    "url": "https://huggingface.co/papers/2406.08656",
+    "title": "TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and Image-to-Video Generation",
+    "date": "2024-06-12",
+    "source": "hf-search"
+  },
+  {
+    "n": 15,
+    "id": "2412.03568",
+    "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7e810b2c75d69be186cadd2fe3febeab-Abstract-Conference.html",
+    "title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control",
+    "date": "2025",
+    "source": "web"
+  },
+  {
+    "n": 16,
+    "id": "2210.02303",
+    "url": "https://arxiv.org/abs/2210.02303",
+    "title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+    "date": "2022-10-05",
+    "source": "arxiv"
+  },
+  {
+    "n": 17,
+    "id": "2311.17982",
+    "url": "https://arxiv.org/abs/2311.17982",
+    "title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+    "date": "2023-11-29",
+    "source": "web"
+  }
+]

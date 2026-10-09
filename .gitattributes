@@ -1,0 +1,3 @@
+# Preserve the exact validated bytes downloaded from Linux sandboxes on Windows.
+reports/*.md -text
+reports/*.sources.json -text

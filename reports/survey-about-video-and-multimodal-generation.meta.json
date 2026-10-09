@@ -1,0 +1,57 @@
+{
+  "topic": "survey about video and multimodal generation",
+  "model": "openai:gpt-6-luna",
+  "elapsed_s": 1075.8,
+  "subagent_calls": 10,
+  "tool_calls": {
+    "write_todos": 5,
+    "read_file": 16,
+    "task": 10,
+    "edit_file": 11,
+    "execute": 3,
+    "write_file": 1
+  },
+  "tokens": {
+    "input": 905496,
+    "output": 15817
+  },
+  "n_sources": 17,
+  "source_families": [
+    "arxiv",
+    "hf-search",
+    "web"
+  ],
+  "token_scope": "lead messages only; excludes subagent usage",
+  "run_kind": "bounded review repair of a genuine prior run",
+  "previous_run": {
+    "topic": "survey about video and multimodal generation",
+    "model": "openai:gpt-6-luna",
+    "elapsed_s": 427.8,
+    "subagent_calls": 13,
+    "tool_calls": {
+      "write_todos": 4,
+      "task": 13,
+      "ls": 3,
+      "read_file": 9,
+      "write_file": 2,
+      "execute": 3,
+      "edit_file": 5
+    },
+    "tokens": {
+      "input": 618443,
+      "output": 11905
+    },
+    "n_sources": 16,
+    "source_families": [
+      "arxiv",
+      "hf-search",
+      "web"
+    ],
+    "token_scope": "lead messages only; excludes subagent usage"
+  },
+  "previous_artifacts": {
+    ".md": "943502973c1819fb94e58b8231b1c90fa2c943c224c3906162b16fb253dd9dd2",
+    ".sources.json": "5848968e930a0536630ce18296a54187e57c52eeb366086830a6f1d3679a2a45",
+    ".meta.json": "918e6aa97bc36e94e9a6eceb737199f584c80cc389be33ed46715952f6db93df"
+  }
+}

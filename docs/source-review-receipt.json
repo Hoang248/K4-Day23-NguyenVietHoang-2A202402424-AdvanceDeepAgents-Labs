@@ -1,0 +1,1476 @@
+{
+  "retrieved_at": "2026-10-09T15:33:07.114665+00:00",
+  "unique_urls": 77,
+  "scope": "Retrieval and source identity evidence; see REPORT_REVIEW.md for claim review. HTTP 200 alone is not verification.",
+  "sources": [
+    {
+      "url": "https://aclanthology.org/2023.findings-acl.507.pdf",
+      "final_url": "https://aclanthology.org/2023.findings-acl.507.pdf",
+      "http_status": 200,
+      "retrieved_title": null,
+      "retrieval_status": "non-HTML; verify with publisher abstract or full paper",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 4,
+          "cited_date": "2023-07-09–14"
+        }
+      ]
+    },
+    {
+      "url": "https://aclanthology.org/2024.findings-acl.624/",
+      "final_url": "https://aclanthology.org/2024.findings-acl.624/",
+      "http_status": 200,
+      "retrieved_title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "InjecAgent: Benchmarking Indirect Prompt Injections in Tool-Integrated Large Language Model Agents",
+        "citation_author": "Daniel Kang",
+        "citation_conference_title": "Findings of the Association for Computational Linguistics: ACL 2024",
+        "citation_publication_date": "2024/8",
+        "citation_doi": "10.18653/v1/2024.findings-acl.624"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 11,
+          "cited_date": "2024"
+        }
+      ]
+    },
+    {
+      "url": "https://aclanthology.org/2024.findings-acl.664/",
+      "final_url": "https://aclanthology.org/2024.findings-acl.664/",
+      "http_status": 200,
+      "retrieved_title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "StableToolBench: Towards Stable Large-Scale Benchmarking on Tool Learning of Large Language Models",
+        "citation_author": "Yang Liu (刘洋)",
+        "citation_conference_title": "Findings of the Association for Computational Linguistics: ACL 2024",
+        "citation_publication_date": "2024/8",
+        "citation_doi": "10.18653/v1/2024.findings-acl.664"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 9,
+          "cited_date": "2024-08"
+        }
+      ]
+    },
+    {
+      "url": "https://aclanthology.org/2025.acl-long.718/",
+      "final_url": "https://aclanthology.org/2025.acl-long.718/",
+      "http_status": 200,
+      "retrieved_title": "Demystifying Small Language Models for Edge Deployment",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Demystifying Small Language Models for Edge Deployment",
+        "citation_author": "Mengwei Xu",
+        "citation_conference_title": "Proceedings of the 63rd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+        "citation_publication_date": "2025/7",
+        "citation_doi": "10.18653/v1/2025.acl-long.718"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 20,
+          "cited_date": "2025-07"
+        }
+      ]
+    },
+    {
+      "url": "https://aclanthology.org/2025.emnlp-main.1542/",
+      "final_url": "https://aclanthology.org/2025.emnlp-main.1542/",
+      "http_status": 200,
+      "retrieved_title": "VerIF: Verification Engineering for Reinforcement Learning in Instruction Following",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "VerIF: Verification Engineering for Reinforcement Learning in Instruction Following",
+        "citation_author": "Juanzi Li",
+        "citation_conference_title": "Proceedings of the 2025 Conference on Empirical Methods in Natural Language Processing",
+        "citation_publication_date": "2025/11",
+        "citation_doi": "10.18653/v1/2025.emnlp-main.1542"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 11,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/1809.01999",
+      "final_url": "https://arxiv.org/abs/1809.01999",
+      "http_status": 200,
+      "retrieved_title": "Recurrent World Models Facilitate Policy Evolution",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Recurrent World Models Facilitate Policy Evolution",
+        "citation_author": "Schmidhuber, Jürgen",
+        "citation_date": "2018/09/04",
+        "citation_online_date": "2018/09/04"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 2,
+          "cited_date": "2018-09-04"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2204.03458",
+      "final_url": "https://arxiv.org/abs/2204.03458",
+      "http_status": 200,
+      "retrieved_title": "Video Diffusion Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Video Diffusion Models",
+        "citation_author": "Fleet, David J.",
+        "citation_date": "2022/04/07",
+        "citation_online_date": "2022/06/22"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 1,
+          "cited_date": "2022-04-07"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2205.00445",
+      "final_url": "https://arxiv.org/abs/2205.00445",
+      "http_status": 200,
+      "retrieved_title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "MRKL Systems: A modular, neuro-symbolic architecture that combines large language models, external knowledge sources and discrete reasoning",
+        "citation_author": "Tenenholtz, Moshe",
+        "citation_date": "2022/05/01",
+        "citation_online_date": "2022/05/01"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 1,
+          "cited_date": "2022-05-01"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2206.14176",
+      "final_url": "https://arxiv.org/abs/2206.14176",
+      "http_status": 200,
+      "retrieved_title": "DayDreamer: World Models for Physical Robot Learning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "DayDreamer: World Models for Physical Robot Learning",
+        "citation_author": "Abbeel, Pieter",
+        "citation_date": "2022/06/28",
+        "citation_online_date": "2022/06/28"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 5,
+          "cited_date": "2022-06-28"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.02303",
+      "final_url": "https://arxiv.org/abs/2210.02303",
+      "http_status": 200,
+      "retrieved_title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Imagen Video: High Definition Video Generation with Diffusion Models",
+        "citation_author": "Salimans, Tim",
+        "citation_date": "2022/10/05",
+        "citation_online_date": "2022/10/05"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 16,
+          "cited_date": "2022-10-05"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.02399",
+      "final_url": "https://arxiv.org/abs/2210.02399",
+      "http_status": 200,
+      "retrieved_title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Phenaki: Variable Length Video Generation From Open Domain Textual Description",
+        "citation_author": "Erhan, Dumitru",
+        "citation_date": "2022/10/05",
+        "citation_online_date": "2022/10/05"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 2,
+          "cited_date": "2022-10-05"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.03629",
+      "final_url": "https://arxiv.org/abs/2210.03629",
+      "http_status": 200,
+      "retrieved_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+        "citation_author": "Cao, Yuan",
+        "citation_date": "2022/10/06",
+        "citation_online_date": "2023/03/10"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 2,
+          "cited_date": "2023-03-10"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2210.17323",
+      "final_url": "https://arxiv.org/abs/2210.17323",
+      "http_status": 200,
+      "retrieved_title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "GPTQ: Accurate Post-Training Quantization for Generative Pre-trained Transformers",
+        "citation_author": "Alistarh, Dan",
+        "citation_date": "2022/10/31",
+        "citation_online_date": "2023/03/22"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 7,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2301.04104",
+      "final_url": "https://arxiv.org/abs/2301.04104",
+      "http_status": 200,
+      "retrieved_title": "Mastering Diverse Domains through World Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Mastering Diverse Domains through World Models",
+        "citation_author": "Lillicrap, Timothy",
+        "citation_date": "2023/01/10",
+        "citation_online_date": "2024/04/17"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 3,
+          "cited_date": "2023-01-10"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.01318",
+      "final_url": "https://arxiv.org/abs/2302.01318",
+      "http_status": 200,
+      "retrieved_title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Accelerating Large Language Model Decoding with Speculative Sampling",
+        "citation_author": "Jumper, John",
+        "citation_date": "2023/02/02",
+        "citation_online_date": "2023/02/02"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 8,
+          "cited_date": "2023-02-02"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2302.04761",
+      "final_url": "https://arxiv.org/abs/2302.04761",
+      "http_status": 200,
+      "retrieved_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Toolformer: Language Models Can Teach Themselves to Use Tools",
+        "citation_author": "Scialom, Thomas",
+        "citation_date": "2023/02/09",
+        "citation_online_date": "2023/02/09"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 3,
+          "cited_date": "2023-02-09"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.08244",
+      "final_url": "https://arxiv.org/abs/2304.08244",
+      "http_status": 200,
+      "retrieved_title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "API-Bank: A Comprehensive Benchmark for Tool-Augmented LLMs",
+        "citation_author": "Li, Yongbin",
+        "citation_date": "2023/04/14",
+        "citation_online_date": "2023/10/25"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 8,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2304.14404",
+      "final_url": "https://arxiv.org/abs/2304.14404",
+      "http_status": 200,
+      "retrieved_title": "Motion-Conditioned Diffusion Model for Controllable Video Synthesis",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Motion-Conditioned Diffusion Model for Controllable Video Synthesis",
+        "citation_author": "Yang, Ming-Hsuan",
+        "citation_date": "2023/04/27",
+        "citation_online_date": "2023/04/27"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 12,
+          "cited_date": "2023"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.14318",
+      "final_url": "https://arxiv.org/abs/2305.14318",
+      "http_status": 200,
+      "retrieved_title": "CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "CREATOR: Tool Creation for Disentangling Abstract and Concrete Reasoning of Large Language Models",
+        "citation_author": "Ji, Heng",
+        "citation_date": "2023/05/23",
+        "citation_online_date": "2024/06/21"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 7,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.15334",
+      "final_url": "https://arxiv.org/abs/2305.15334",
+      "http_status": 200,
+      "retrieved_title": "Gorilla: Large Language Model Connected with Massive APIs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Gorilla: Large Language Model Connected with Massive APIs",
+        "citation_author": "Gonzalez, Joseph E.",
+        "citation_date": "2023/05/24",
+        "citation_online_date": "2023/05/24"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 4,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.17126",
+      "final_url": "https://arxiv.org/abs/2305.17126",
+      "http_status": 200,
+      "retrieved_title": "Large Language Models as Tool Makers",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Large Language Models as Tool Makers",
+        "citation_author": "Zhou, Denny",
+        "citation_date": "2023/05/26",
+        "citation_online_date": "2024/03/11"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 6,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2305.20050",
+      "final_url": "https://arxiv.org/abs/2305.20050",
+      "http_status": 200,
+      "retrieved_title": "Let's Verify Step by Step",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Let's Verify Step by Step",
+        "citation_author": "Cobbe, Karl",
+        "citation_date": "2023/05/31",
+        "citation_online_date": "2023/05/31"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 1,
+          "cited_date": "2023-05-31"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2306.11644",
+      "final_url": "https://arxiv.org/abs/2306.11644",
+      "http_status": 200,
+      "retrieved_title": "Textbooks Are All You Need",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Textbooks Are All You Need",
+        "citation_author": "Li, Yuanzhi",
+        "citation_date": "2023/06/20",
+        "citation_online_date": "2023/10/02"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 2,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.08691",
+      "final_url": "https://arxiv.org/abs/2307.08691",
+      "http_status": 200,
+      "retrieved_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "FlashAttention-2: Faster Attention with Better Parallelism and Work Partitioning",
+        "citation_author": "Dao, Tri",
+        "citation_date": "2023/07/17",
+        "citation_online_date": "2023/07/17"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 9,
+          "cited_date": "2023-07-17"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2307.16789",
+      "final_url": "https://arxiv.org/abs/2307.16789",
+      "http_status": 200,
+      "retrieved_title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "ToolLLM: Facilitating Large Language Models to Master 16000+ Real-world APIs",
+        "citation_author": "Sun, Maosong",
+        "citation_date": "2023/07/31",
+        "citation_online_date": "2023/10/03"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 5,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.05463",
+      "final_url": "https://arxiv.org/abs/2309.05463",
+      "http_status": 200,
+      "retrieved_title": "Textbooks Are All You Need II: phi-1.5 technical report",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Textbooks Are All You Need II: phi-1.5 technical report",
+        "citation_author": "Lee, Yin Tat",
+        "citation_date": "2023/09/11",
+        "citation_online_date": "2023/09/11"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 3,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.06180",
+      "final_url": "https://arxiv.org/abs/2309.06180",
+      "http_status": 200,
+      "retrieved_title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Efficient Memory Management for Large Language Model Serving with PagedAttention",
+        "citation_author": "Stoica, Ion",
+        "citation_date": "2023/09/12",
+        "citation_online_date": "2023/09/12"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 5,
+          "cited_date": "2023-09-12"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2309.17080",
+      "final_url": "https://arxiv.org/abs/2309.17080",
+      "http_status": 200,
+      "retrieved_title": "GAIA-1: A Generative World Model for Autonomous Driving",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "GAIA-1: A Generative World Model for Autonomous Driving",
+        "citation_author": "Corrado, Gianluca",
+        "citation_date": "2023/09/29",
+        "citation_online_date": "2023/09/29"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 7,
+          "cited_date": "2023-09-29"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.07052",
+      "final_url": "https://arxiv.org/abs/2311.07052",
+      "http_status": 200,
+      "retrieved_title": "Towards the Law of Capacity Gap in Distilling Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Towards the Law of Capacity Gap in Distilling Language Models",
+        "citation_author": "Hu, Yan",
+        "citation_date": "2023/11/13",
+        "citation_online_date": "2025/07/30"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 19,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.15127",
+      "final_url": "https://arxiv.org/abs/2311.15127",
+      "http_status": 200,
+      "retrieved_title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Stable Video Diffusion: Scaling Latent Video Diffusion Models to Large Datasets",
+        "citation_author": "Rombach, Robin",
+        "citation_date": "2023/11/25",
+        "citation_online_date": "2023/11/25"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 3,
+          "cited_date": "2023-11-25"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2311.17982",
+      "final_url": "https://arxiv.org/abs/2311.17982",
+      "http_status": 200,
+      "retrieved_title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "VBench: Comprehensive Benchmark Suite for Video Generative Models",
+        "citation_author": "Liu, Ziwei",
+        "citation_date": "2023/11/29",
+        "citation_online_date": "2023/11/29"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 17,
+          "cited_date": "2023-11-29"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.08935",
+      "final_url": "https://arxiv.org/abs/2312.08935",
+      "http_status": 200,
+      "retrieved_title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Math-Shepherd: Verify and Reinforce LLMs Step-by-step without Human Annotations",
+        "citation_author": "Sui, Zhifang",
+        "citation_date": "2023/12/14",
+        "citation_online_date": "2024/02/19"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 2,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2312.14125",
+      "final_url": "https://arxiv.org/abs/2312.14125",
+      "http_status": 200,
+      "retrieved_title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "VideoPoet: A Large Language Model for Zero-Shot Video Generation",
+        "citation_author": "Jiang, Lu",
+        "citation_date": "2023/12/21",
+        "citation_online_date": "2024/06/04"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 4,
+          "cited_date": "2023-12-21"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2401.12945",
+      "final_url": "https://arxiv.org/abs/2401.12945",
+      "http_status": 200,
+      "retrieved_title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Lumiere: A Space-Time Diffusion Model for Video Generation",
+        "citation_author": "Mosseri, Inbar",
+        "citation_date": "2024/01/23",
+        "citation_online_date": "2024/02/05"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 5,
+          "cited_date": "2024-02-05"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.02750",
+      "final_url": "https://arxiv.org/abs/2402.02750",
+      "http_status": 200,
+      "retrieved_title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache",
+        "citation_author": "Hu, Xia",
+        "citation_doi": "10.13140/RG.2.2.28167.37282",
+        "citation_date": "2024/02/05",
+        "citation_online_date": "2024/07/25"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 6,
+          "cited_date": "2024-02-05"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.03300",
+      "final_url": "https://arxiv.org/abs/2402.03300",
+      "http_status": 200,
+      "retrieved_title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open Language Models",
+        "citation_author": "Guo, Daya",
+        "citation_date": "2024/02/05",
+        "citation_online_date": "2024/04/27"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 3,
+          "cited_date": "2024-04-27"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2402.15391",
+      "final_url": "https://arxiv.org/abs/2402.15391",
+      "http_status": 200,
+      "retrieved_title": "Genie: Generative Interactive Environments",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Genie: Generative Interactive Environments",
+        "citation_author": "Rocktäschel, Tim",
+        "citation_date": "2024/02/23",
+        "citation_online_date": "2024/02/23"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 6,
+          "cited_date": "2024-02-23"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2405.15223",
+      "final_url": "https://arxiv.org/abs/2405.15223",
+      "http_status": 200,
+      "retrieved_title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "iVideoGPT: Interactive VideoGPTs are Scalable World Models",
+        "citation_author": "Long, Mingsheng",
+        "citation_date": "2024/05/24",
+        "citation_online_date": "2024/10/31"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 12,
+          "cited_date": "2024-05-24"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.12045",
+      "final_url": "https://arxiv.org/abs/2406.12045",
+      "http_status": 200,
+      "retrieved_title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "$\\tau$-bench: A Benchmark for Tool-Agent-User Interaction in Real-World Domains",
+        "citation_author": "Narasimhan, Karthik",
+        "citation_date": "2024/06/17",
+        "citation_online_date": "2024/06/17"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 10,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.13352",
+      "final_url": "https://arxiv.org/abs/2406.13352",
+      "http_status": 200,
+      "retrieved_title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "AgentDojo: A Dynamic Environment to Evaluate Prompt Injection Attacks and Defenses for LLM Agents",
+        "citation_author": "Tramèr, Florian",
+        "citation_date": "2024/06/19",
+        "citation_online_date": "2024/11/24"
+      },
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 12,
+          "cited_date": "2024-06-19"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2406.14833",
+      "final_url": "https://arxiv.org/abs/2406.14833",
+      "http_status": 200,
+      "retrieved_title": "Efficient Continual Pre-training by Mitigating the Stability Gap",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Efficient Continual Pre-training by Mitigating the Stability Gap",
+        "citation_author": "Shen, Yikang",
+        "citation_date": "2024/06/21",
+        "citation_online_date": "2024/06/27"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 12,
+          "cited_date": "2024-06-27"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2409.15790",
+      "final_url": "https://arxiv.org/abs/2409.15790",
+      "http_status": 200,
+      "retrieved_title": "Small Language Models: Survey, Measurements, and Insights",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Small Language Models: Survey, Measurements, and Insights",
+        "citation_author": "Xu, Mengwei",
+        "citation_date": "2024/09/24",
+        "citation_online_date": "2025/02/26"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 13,
+          "cited_date": "2025-02-26"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2410.20502",
+      "final_url": "https://arxiv.org/abs/2410.20502",
+      "http_status": 200,
+      "retrieved_title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "ARLON: Boosting Diffusion Transformers with Autoregressive Models for Long Video Generation",
+        "citation_author": "Wei, Furu",
+        "citation_date": "2024/10/27",
+        "citation_online_date": "2025/04/15"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 6,
+          "cited_date": "2024-10-27"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2501.12948",
+      "final_url": "https://arxiv.org/abs/2501.12948",
+      "http_status": 200,
+      "retrieved_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+        "citation_author": "Zhang, Zhen",
+        "citation_doi": "10.1038/s41586-025-09422-z",
+        "citation_date": "2025/01/22",
+        "citation_online_date": "2026/01/04"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 7,
+          "cited_date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2502.12632",
+      "final_url": "https://arxiv.org/abs/2502.12632",
+      "http_status": 200,
+      "retrieved_title": "MALT Diffusion: Memory-Augmented Latent Transformers for Any-Length Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "MALT Diffusion: Memory-Augmented Latent Transformers for Any-Length Video Generation",
+        "citation_author": "Huang, Jonathan",
+        "citation_date": "2025/02/18",
+        "citation_online_date": "2025/07/08"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 7,
+          "cited_date": "2025-02-18"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2504.08388",
+      "final_url": "https://arxiv.org/abs/2504.08388",
+      "http_status": 200,
+      "retrieved_title": "MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "MineWorld: a Real-Time and Open-Source Interactive World Model on Minecraft",
+        "citation_author": "Bian, Jiang",
+        "citation_date": "2025/04/11",
+        "citation_online_date": "2025/04/11"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 10,
+          "cited_date": "2025-04-11"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.15030",
+      "final_url": "https://arxiv.org/abs/2505.15030",
+      "http_status": 200,
+      "retrieved_title": "A Systematic Evaluation of On-Device LLMs: Quantization, Performance, and Resources",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "A Systematic Evaluation of On-Device LLMs: Quantization, Performance, and Resources",
+        "citation_author": "Xu, Hong",
+        "citation_date": "2025/05/21",
+        "citation_online_date": "2026/03/16"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 15,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.16508",
+      "final_url": "https://arxiv.org/abs/2505.16508",
+      "http_status": 200,
+      "retrieved_title": "Edge-First Language Model Inference: Models, Metrics, and Tradeoffs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Edge-First Language Model Inference: Models, Metrics, and Tradeoffs",
+        "citation_author": "Morabito, Roberto",
+        "citation_date": "2025/05/22",
+        "citation_online_date": "2025/05/29"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 17,
+          "cited_date": "2025-05-22"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2505.17218",
+      "final_url": "https://arxiv.org/abs/2505.17218",
+      "http_status": 200,
+      "retrieved_title": "Effective Reinforcement Learning for Reasoning in Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Effective Reinforcement Learning for Reasoning in Language Models",
+        "citation_author": "Bastani, Osbert",
+        "citation_date": "2025/05/22",
+        "citation_online_date": "2025/05/22"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 6,
+          "cited_date": "2025-05-22"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.09985",
+      "final_url": "https://arxiv.org/abs/2506.09985",
+      "http_status": 200,
+      "retrieved_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "V-JEPA 2: Self-Supervised Video Models Enable Understanding, Prediction and Planning",
+        "citation_author": "Ballas, Nicolas",
+        "citation_date": "2025/06/11",
+        "citation_online_date": "2025/06/11"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 11,
+          "cited_date": "2025-06-11"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.14245",
+      "final_url": "https://arxiv.org/abs/2506.14245",
+      "http_status": 200,
+      "retrieved_title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Reinforcement Learning with Verifiable Rewards Implicitly Incentivizes Correct Reasoning in Base LLMs",
+        "citation_author": "Yang, Mao",
+        "citation_date": "2025/06/17",
+        "citation_online_date": "2025/10/02"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 9,
+          "cited_date": "2025-06-17"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2506.21495",
+      "final_url": "https://arxiv.org/abs/2506.21495",
+      "http_status": 200,
+      "retrieved_title": "Bridging Offline and Online Reinforcement Learning for LLMs",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Bridging Offline and Online Reinforcement Learning for LLMs",
+        "citation_author": "Kulikov, Ilia",
+        "citation_date": "2025/06/26",
+        "citation_online_date": "2025/06/26"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 5,
+          "cited_date": "2025-06-26"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2507.06119",
+      "final_url": "https://arxiv.org/abs/2507.06119",
+      "http_status": 200,
+      "retrieved_title": "Omni-Video: Democratizing Unified Video Understanding and Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Omni-Video: Democratizing Unified Video Understanding and Generation",
+        "citation_author": "Li, Hao",
+        "citation_date": "2025/07/08",
+        "citation_online_date": "2026/03/13"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 10,
+          "cited_date": "2025"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.00782",
+      "final_url": "https://arxiv.org/abs/2508.00782",
+      "http_status": 200,
+      "retrieved_title": "SpA2V: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "SpA2V: Harnessing Spatial Auditory Cues for Audio-driven Spatially-aware Video Generation",
+        "citation_author": "Chen, Long",
+        "citation_doi": "10.1145/3746027.3755705",
+        "citation_date": "2025/08/01",
+        "citation_online_date": "2025/08/01"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 11,
+          "cited_date": "2025"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2508.15478",
+      "final_url": "https://arxiv.org/abs/2508.15478",
+      "http_status": 200,
+      "retrieved_title": "SLM-Bench: A Comprehensive Benchmark of Small Language Models on Environmental Impacts--Extended Version",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "SLM-Bench: A Comprehensive Benchmark of Small Language Models on Environmental Impacts--Extended Version",
+        "citation_author": "Le-Phuoc, Danh",
+        "citation_date": "2025/08/21",
+        "citation_online_date": "2025/09/04"
+      },
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 16,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2509.25300",
+      "final_url": "https://arxiv.org/abs/2509.25300",
+      "http_status": 200,
+      "retrieved_title": "Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study in Mathematical Reasoning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Scaling Behaviors of LLM Reinforcement Learning Post-Training: An Empirical Study in Mathematical Reasoning",
+        "citation_author": "Bai, Lei",
+        "citation_date": "2025/09/29",
+        "citation_online_date": "2026/04/17"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 8,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.01367",
+      "final_url": "https://arxiv.org/abs/2510.01367",
+      "http_status": 200,
+      "retrieved_title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Is It Thinking or Cheating? Detecting Implicit Reward Hacking by Measuring Reasoning Effort",
+        "citation_author": "He, He",
+        "citation_date": "2025/10/01",
+        "citation_online_date": "2026/03/02"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 12,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/abs/2510.15990",
+      "final_url": "https://arxiv.org/abs/2510.15990",
+      "http_status": 200,
+      "retrieved_title": "Can GRPO Help LLMs Transcend Their Pretraining Origin?",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Can GRPO Help LLMs Transcend Their Pretraining Origin?",
+        "citation_author": "Chen, Tianlong",
+        "citation_date": "2025/10/14",
+        "citation_online_date": "2025/10/14"
+      },
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 10,
+          "cited_date": "2025-10-14"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2312.03641v2",
+      "final_url": "https://arxiv.org/html/2312.03641v2",
+      "http_status": 200,
+      "retrieved_title": "",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 9,
+          "cited_date": "2023-12-06"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2401.02385v2",
+      "final_url": "https://arxiv.org/html/2401.02385v2",
+      "http_status": 200,
+      "retrieved_title": "",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 18,
+          "cited_date": "2024-06-04"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2404.06395",
+      "final_url": "https://arxiv.org/html/2404.06395",
+      "http_status": 200,
+      "retrieved_title": "",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 10,
+          "cited_date": "2024-06-03"
+        }
+      ]
+    },
+    {
+      "url": "https://arxiv.org/html/2502.07825v1",
+      "final_url": "https://arxiv.org/html/2502.07825v1",
+      "http_status": 200,
+      "retrieved_title": "",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 9,
+          "cited_date": "2025-02-10"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/1908.08962",
+      "final_url": "https://huggingface.co/papers/1908.08962",
+      "http_status": 200,
+      "retrieved_title": "Paper page - Well-Read Students Learn Better: On the Importance of Pre-training\n  Compact Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 1,
+          "cited_date": ""
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2311.17982",
+      "final_url": "https://huggingface.co/papers/2311.17982",
+      "http_status": 200,
+      "retrieved_title": "Paper page - VBench: Comprehensive Benchmark Suite for Video Generative Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 13,
+          "cited_date": "2023-11-29"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2401.07324",
+      "final_url": "https://huggingface.co/papers/2401.07324",
+      "http_status": 200,
+      "retrieved_title": "Paper page - Small LLMs Are Weak Tool Learners: A Multi-LLM Agent",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 15,
+          "cited_date": "2024-01-14"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2402.03300",
+      "final_url": "https://huggingface.co/papers/2402.03300",
+      "http_status": 200,
+      "retrieved_title": "Paper page - DeepSeekMath: Pushing the Limits of Mathematical Reasoning in Open\n  Language Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 4,
+          "cited_date": "2024-02-05"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2405.06263",
+      "final_url": "https://huggingface.co/papers/2405.06263",
+      "http_status": 200,
+      "retrieved_title": "Paper page - Learning Latent Dynamic Robust Representations for World Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 4,
+          "cited_date": "2024-05-10"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2406.08656",
+      "final_url": "https://huggingface.co/papers/2406.08656",
+      "http_status": 200,
+      "retrieved_title": "Paper page - TC-Bench: Benchmarking Temporal Compositionality in Text-to-Video and\n  Image-to-Video Generation",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 14,
+          "cited_date": "2024-06-12"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2501.12948",
+      "final_url": "https://huggingface.co/papers/2501.12948",
+      "http_status": 200,
+      "retrieved_title": "Paper page - DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via\n  Reinforcement Learning",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-reinforcement-learning-for-llm-reasoning.sources.json",
+          "n": 13,
+          "cited_date": "2025-01-22"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2504.00002",
+      "final_url": "https://huggingface.co/papers/2504.00002",
+      "http_status": 200,
+      "retrieved_title": "Paper page - Are We There Yet? A Measurement Study of Efficiency for LLM Applications\n  on Mobile Devices",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 14,
+          "cited_date": "2025-03-10"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2504.11393",
+      "final_url": "https://huggingface.co/papers/2504.11393",
+      "http_status": 200,
+      "retrieved_title": "Paper page - DataDecide: How to Predict Best Pretraining Data with Small Experiments",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-efficient-inference-and-small-language-models.sources.json",
+          "n": 11,
+          "cited_date": "2025-04-15"
+        }
+      ]
+    },
+    {
+      "url": "https://huggingface.co/papers/2504.18575",
+      "final_url": "https://huggingface.co/papers/2504.18575",
+      "http_status": 200,
+      "retrieved_title": "Paper page - WASP: Benchmarking Web Agent Security Against Prompt Injection Attacks",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 14,
+          "cited_date": "2025-04-22"
+        }
+      ]
+    },
+    {
+      "url": "https://modelcontextprotocol.io/specification/2025-03-26/server/tools",
+      "final_url": "https://modelcontextprotocol.io/specification/2025-03-26/server/tools",
+      "http_status": 200,
+      "retrieved_title": "Tools - Model Context Protocol",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {},
+      "citations": [
+        {
+          "report": "survey-about-llm-agents-and-tool-use.sources.json",
+          "n": 13,
+          "cited_date": "2025-03-26"
+        }
+      ]
+    },
+    {
+      "url": "https://oasis-model.github.io/",
+      "final_url": "https://oasis-model.github.io/",
+      "http_status": 200,
+      "retrieved_title": "Oasis: A Universe in a Transformer",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Oasis: A Universe in a Transformer",
+        "citation_author": "Wachen, Robert",
+        "citation_publication_date": "2024/10/31"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 8,
+          "cited_date": "2024-10-31"
+        }
+      ]
+    },
+    {
+      "url": "https://openaccess.thecvf.com/content/CVPR2025/html/Geng_Motion_Prompting_Controlling_Video_Generation_with_Motion_Trajectories_CVPR_2025_paper.html",
+      "final_url": "https://openaccess.thecvf.com/content/CVPR2025/html/Geng_Motion_Prompting_Controlling_Video_Generation_with_Motion_Trajectories_CVPR_2025_paper.html",
+      "http_status": 200,
+      "retrieved_title": "Motion Prompting: Controlling Video Generation with Motion Trajectories",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "Motion Prompting: Controlling Video Generation with Motion Trajectories",
+        "citation_author": "Sun, Deqing",
+        "citation_publication_date": "2025",
+        "citation_conference_title": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 8,
+          "cited_date": "2025-06"
+        }
+      ]
+    },
+    {
+      "url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7e810b2c75d69be186cadd2fe3febeab-Abstract-Conference.html",
+      "final_url": "https://proceedings.neurips.cc/paper_files/paper/2025/hash/7e810b2c75d69be186cadd2fe3febeab-Abstract-Conference.html",
+      "http_status": 200,
+      "retrieved_title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "The Matrix: Infinite-Horizon World Generation with Real-Time Moving Control",
+        "citation_author": "Zhang, Hongyang",
+        "citation_journal_title": "Advances in Neural Information Processing Systems",
+        "citation_doi": "10.52202/085713-2920",
+        "citation_publication_date": "2026-04-23"
+      },
+      "citations": [
+        {
+          "report": "survey-about-video-and-multimodal-generation.sources.json",
+          "n": 15,
+          "cited_date": "2025"
+        }
+      ]
+    },
+    {
+      "url": "https://worldmodels.github.io/",
+      "final_url": "https://worldmodels.github.io/",
+      "http_status": 200,
+      "retrieved_title": "World Models",
+      "retrieval_status": "retrieved; support still requires claim review",
+      "metadata": {
+        "citation_title": "World Models",
+        "citation_doi": "10.5281/zenodo.1207631",
+        "citation_online_date": "2018/03/27",
+        "citation_publication_date": "2018/03/27",
+        "citation_author": "Schmidhuber, Jürgen",
+        "citation_journal_title": "World Models"
+      },
+      "citations": [
+        {
+          "report": "survey-about-world-model.sources.json",
+          "n": 1,
+          "cited_date": "2018-03-27"
+        }
+      ]
+    }
+  ]
+}

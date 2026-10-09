@@ -1,0 +1,68 @@
+{
+  "recorded_at": "2026-10-09T07:05:17.258985+00:00",
+  "purpose": "baseline for authorized continuation of remaining four topics",
+  "model": "openai:gpt-6-luna",
+  "sandbox": "docker",
+  "packages": {
+    "deepagents": "0.7.21",
+    "langchain-openai": "1.6.7",
+    "httpx": "0.28.1"
+  },
+  "artifacts": [
+    {
+      "path": "tools.py",
+      "sha256": "b62215e50ca214450c24930408ddcf5bfc334499af1593529a8f7ef6f63ee588",
+      "bytes": 15477
+    },
+    {
+      "path": "agents.py",
+      "sha256": "30acbf42c3fa330631e6c21b51bdc7fd4c23b79a275cb50ced3731316ebf45dc",
+      "bytes": 8774
+    },
+    {
+      "path": "research.py",
+      "sha256": "d4351dfa3e9d132bc522dad8061dfc5a6b4b32b81fd7dd93894077fc857fef69",
+      "bytes": 9545
+    },
+    {
+      "path": "check_citations.py",
+      "sha256": "f38587d07dae71eb7a65a34d3452c484f3d1d183d4040e3c266dd10917a65865",
+      "bytes": 5582
+    },
+    {
+      "path": "model.py",
+      "sha256": "a9e82039c84d52f1bd08481e78d72947eca99eb5bbde3a2ba7bd9e1981696853",
+      "bytes": 2244
+    },
+    {
+      "path": "sandbox.py",
+      "sha256": "6b34f187ba60ca29a9dcd89d2aeb4f38e30a9613c7a1bc84e09ebe7edd8144e9",
+      "bytes": 6452
+    },
+    {
+      "path": "self_check.py",
+      "sha256": "878fe514e3684b4a829963632bbce619930641babe62b01c5c6150b282c55368",
+      "bytes": 4964
+    },
+    {
+      "path": "finalize_citations.py",
+      "sha256": "d3a0ddaeb042a630a8066d7b327d0cb385cbe03e7a22dca107324f7e6a1280b9",
+      "bytes": 4967
+    },
+    {
+      "path": "reports/survey-about-world-model.md",
+      "sha256": "fb6abc239a314538598b7826e3f4a4494beb6747c971164234a281a61b720fb7",
+      "bytes": 10563
+    },
+    {
+      "path": "reports/survey-about-world-model.sources.json",
+      "sha256": "d92159bc1ce29b44e4f77588921a341ad105b8965eb9fb7af89034306288dc8c",
+      "bytes": 2497
+    },
+    {
+      "path": "reports/survey-about-world-model.meta.json",
+      "sha256": "2159814870d78fc5a036f6fdd90b1f1d696018b2f278b206e63359a298f4b1c4",
+      "bytes": 494
+    }
+  ]
+}
